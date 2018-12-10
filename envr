@@ -1,4 +1,31 @@
 Experiment -1
-Removing return(0)- by removing return (0) from the progam  what we did ,it did not affect the output. But by searching in google return 0 is a success status like saying "the program worked fine"
+Removing return(0)- By removing return (0) from the progam  what we did ,it did not affect the output.
+ But by searching in google return 0- the main function is of type int and therefore it should return an integer value and also  a success status like saying "the program worked fine"
 doubt-
-what is the necessary to add return 0 inprogram??
+what is the necessary to add return 0 in program??
+
+
+Experiment -2
+Removing #- If we do precompilation with # then the no of lines is 852 (for our program)
+            If we do not use # then the no of lines is 12 (for our program) .
+            A preprocessor is a library of information which defines and interprets the compiler , what a specific instruction does in a program.
+            Preprocessor is nothing but a set of code needed to run your code.so # is imprtant for precompilation.For precompilation we are using gcc -E comannd.
+            By using gcc -E filename.c > filename.i command we can see the precompiled output through filename.i. 
+            
+Experiment -3
+using command gcc -C filename.c-To produce only the compiled code (without any linking), use the -C option.
+                                The command above would produce a file filename.o that would contain machine level code or the compiled code.
+                                
+ Experiment-4
+ using command gcc -S file name.c > filename.s -The assembly level output can be produced using the -S option.
+                                This converts the high level languagge to assembly level languagge.
+                                 The file file name.s would contain the assembly output.
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
